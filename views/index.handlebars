@@ -10,9 +10,9 @@
 
         <li class="availableList">{{this.burger_name}}
         
-         <form action="/{{this.id}}?_method=PUT" method="POST">
+         <form action="/{{this.id}}?_method=PUT" method="POST" class="devouredButton">
           <input type="hidden" name="devoured" value="true">
-          <button type="submit" class="devouredButton">Devoured</button>
+          <button type="submit" >Devoured</button>
         </form>
 
       </li>
@@ -23,7 +23,7 @@
 </div>
 
 <div id="devoured">
-<h2>Devoured Burgers!</h2>
+<h2>Devoured Burgers</h2>
 
 <ol>
   {{#each burgers}}
@@ -37,7 +37,8 @@
 </div>
 
 
-
+<div id="newBurger">
+<hr>
 <h2>Add a Burger</h2>
 <form class="create-update-form" action="/" method="POST">
 
@@ -46,5 +47,6 @@
     <input type="text" id="burgerInput" name="burger_name">
   </div>
 
-  <button type="submit">Add Burger</button>
+  <button id="burgerButton" type="submit">Add Burger</button>
 </form>
+</div>

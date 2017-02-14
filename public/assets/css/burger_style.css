@@ -1,5 +1,14 @@
 body{
-	background-image: url(../../img/burgerbg.jpeg);
+	background-image: url(../img/burgerbg.jpeg);
+	color: white;
+	padding: 0px;
+}
+
+#headingDiv{
+	background-color: rgba(220, 245, 245, 0.3);
+	padding: 30px;
+	margin-bottom: 100px;
+
 }
 
 #burgerImg{
@@ -10,32 +19,70 @@ margin:auto;
 }
 
 #available{
+
 float: left;
+margin-left: 200px;
 }
 
 .devouredButton{
 
-float: left;
+/*float: left;*/
+display: inline;
+
+margin-left: 20px;
 }
 
-li{
+h2{
 
-display: block;
+text-align: center;
+
 
 }
 .availableList{
 
-background-color: white;
-float: left;
+/*background-color: white;*/
+/*float: left;*/
+
+
 
 }
 
 .devouredList{
-background-color: grey;
+
+/*background-color: grey;*/
 
 }
 
 #devoured{
+
 float: right;
 
+margin-right: 200px;
+
+}
+
+#foot{
+	text-align: center;
+	margin-top: 100px;
+	padding: 20px;
+	background-color: rgba(220, 245, 245, 0.3);
+
+	/*padding: 100px;*/
+}
+
+#heading{
+	text-align: center;
+}
+
+#newBurger{
+	padding-top: 100px;
+	clear: both;
+	display: block;
+	width: 40%; 
+	margin:auto;
+	text-align: center;
+}
+
+#burgerButton{
+	margin-top: 20px;
 }
