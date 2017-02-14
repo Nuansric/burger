@@ -1,0 +1,41 @@
+body{
+	background-image: url(../../img/burgerbg.jpeg);
+}
+
+#burgerImg{
+width: 40%; 
+height: 300px;
+display: block; 
+margin:auto;
+}
+
+#available{
+float: left;
+}
+
+.devouredButton{
+
+float: left;
+}
+
+li{
+
+display: block;
+
+}
+.availableList{
+
+background-color: white;
+float: left;
+
+}
+
+.devouredList{
+background-color: grey;
+
+}
+
+#devoured{
+float: right;
+
+}
