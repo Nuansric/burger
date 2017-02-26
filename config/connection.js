@@ -4,10 +4,10 @@ var importedPassword = require("./key.js");
 
 
 var connection = mysql.createConnection({
-  port: 3306,
+  port: process.env.PORT || 3306,
   host: "localhost",
   user: "root",
-  password: importedPassword.mySQLKeys.password,
+  password: "kalowanebli",
   database: "burgers_db"
 });
 
