@@ -23,5 +23,10 @@
     "method-override": "^2.3.7",
     "mysql": "^2.13.0",
     "path": "^0.12.7"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
 }
