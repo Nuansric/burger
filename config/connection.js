@@ -33,7 +33,7 @@ var mysql = require("mysql");
 var connectInfo = {
   host: "localhost",
   user: "root",
-  password: 'kalowanebli',
+  password: '',
   database: "burgers_db"
 };
 
