@@ -11,6 +11,9 @@ var connection = mysql.createConnection({
   database: "burgers_db"
 });
 
+if (process.env.JAWSDB_URL){
+  connectInfo=process.env.JAWSDB_URL;
+}
 // Make connection.
 connection.connect(function(err) {
   if (err) {
