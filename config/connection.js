@@ -45,3 +45,6 @@ var connection = mysql.createConnection(connectInfo);
 connection.connect();
 // Now, we are using the 'module.exports' method, saving it as a variable equal to the name of the mysql object.
 module.exports = connection;
+
+
+
